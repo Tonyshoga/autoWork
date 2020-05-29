@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="eComms.RunnerTest" time="154.096" tests="109" errors="2" skipped="13" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Selenium\eclipse-workspace\eComms"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Selenium\eclipse-workspace\eComms"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\TONYSH~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\tonyshugar\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.6.3\bin;;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\tonyshugar"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="tonyshugar"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I  am on the homepage" classname="Scenario: As a user i want to be able to contact customer service" time="0.002"/>
+  <testcase name="And I click on the contact us link" classname="Scenario: As a user i want to be able to contact customer service" time="0"/>
+  <testcase name="When I select the drop down" classname="Scenario: As a user i want to be able to contact customer service" time="0"/>
+  <testcase name="And Enter an email address" classname="Scenario: As a user i want to be able to contact customer service" time="0"/>
+  <testcase name="And Enter an order number" classname="Scenario: As a user i want to be able to contact customer service" time="0"/>
+  <testcase name="And I send a message in message box" classname="Scenario: As a user i want to be able to contact customer service" time="0"/>
+  <testcase name="And I upload an attachment" classname="Scenario: As a user i want to be able to contact customer service" time="0"/>
+  <testcase name="Then I click on submit" classname="Scenario: As a user i want to be able to contact customer service" time="0"/>
+  <testcase name="Scenario: As a user i want to be able to contact customer service" classname="Scenario: As a user i want to be able to contact customer service" time="0"/>
+  <testcase name="Given I  am on the homepage" classname="| tony167@test.com | testi7 | miker teest |" time="0"/>
+  <testcase name="And I Click on the log in link" classname="| tony167@test.com | testi7 | miker teest |" time="0"/>
+  <testcase name="And I enter email &quot;tony167@test.com&quot;address" classname="| tony167@test.com | testi7 | miker teest |" time="0"/>
+  <testcase name="And I enter password &quot;testi7&quot;" classname="| tony167@test.com | testi7 | miker teest |" time="0"/>
+  <testcase name="When I click on the login  in button" classname="| tony167@test.com | testi7 | miker teest |" time="0"/>
+  <testcase name="Then I verify that &quot;miker teest&quot;  logged in successfully" classname="| tony167@test.com | testi7 | miker teest |" time="0"/>
+  <testcase name="And I sign out successfuly" classname="| tony167@test.com | testi7 | miker teest |" time="0"/>
+  <testcase name="| tony167@test.com | testi7 | miker teest |" classname="| tony167@test.com | testi7 | miker teest |" time="0"/>
+  <testcase name="Given I  am on the homepage" classname="| tony195@test.com | test1 | mike testeer |" time="0"/>
+  <testcase name="And I Click on the log in link" classname="| tony195@test.com | test1 | mike testeer |" time="0"/>
+  <testcase name="And I enter email &quot;tony195@test.com&quot;address" classname="| tony195@test.com | test1 | mike testeer |" time="0"/>
+  <testcase name="And I enter password &quot;test1&quot;" classname="| tony195@test.com | test1 | mike testeer |" time="0"/>
+  <testcase name="When I click on the login  in button" classname="| tony195@test.com | test1 | mike testeer |" time="0"/>
+  <testcase name="Then I verify that &quot;mike testeer&quot;  logged in successfully" classname="| tony195@test.com | test1 | mike testeer |" time="0"/>
+  <testcase name="And I sign out successfuly" classname="| tony195@test.com | test1 | mike testeer |" time="0"/>
+  <testcase name="| tony195@test.com | test1 | mike testeer |" classname="| tony195@test.com | test1 | mike testeer |" time="0"/>
+  <testcase name="Given I  am on the homepage" classname="| tony133@test.com | test2 | mikky testing |" time="0"/>
+  <testcase name="And I Click on the log in link" classname="| tony133@test.com | test2 | mikky testing |" time="0"/>
+  <testcase name="And I enter email &quot;tony133@test.com&quot;address" classname="| tony133@test.com | test2 | mikky testing |" time="0"/>
+  <testcase name="And I enter password &quot;test2&quot;" classname="| tony133@test.com | test2 | mikky testing |" time="0"/>
+  <testcase name="When I click on the login  in button" classname="| tony133@test.com | test2 | mikky testing |" time="0"/>
+  <testcase name="Then I verify that &quot;mikky testing&quot;  logged in successfully" classname="| tony133@test.com | test2 | mikky testing |" time="0.001"/>
+  <testcase name="And I sign out successfuly" classname="| tony133@test.com | test2 | mikky testing |" time="0"/>
+  <testcase name="| tony133@test.com | test2 | mikky testing |" classname="| tony133@test.com | test2 | mikky testing |" time="0"/>
+  <testcase name="Given I  am on the homepage" classname="| miker | teest | testi7 | miker teest |" time="0"/>
+  <testcase name="And I Click on the log in link" classname="| miker | teest | testi7 | miker teest |" time="0"/>
+  <testcase name="When I enter my new email address" classname="| miker | teest | testi7 | miker teest |" time="0"/>
+  <testcase name="And I click on the crate account button" classname="| miker | teest | testi7 | miker teest |" time="0"/>
+  <testcase name="And I click on the male radio button" classname="| miker | teest | testi7 | miker teest |" time="0.005">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;id_gender1&quot;}&#10;  (Session info: chrome=81.0.4044.129)&#10;  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 30.06 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Tonyshugar&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65132}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\TONYSH~1\AppData\Local\Temp\scoped_dir26796_188172349}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 126ac298ee18ac1d0767bcc96249383d&#10;*** Element info: {Using=id, value=id_gender1}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"id_gender1"}
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Tonyshugar', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65132}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\TONYSH~1\AppData\Local\Temp\scoped_dir26796_188172349}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 126ac298ee18ac1d0767bcc96249383d
+*** Element info: {Using=id, value=id_gender1}
+</error>
+  </testcase>
+  <testcase name="| miker | teest | testi7 | miker teest |" classname="| miker | teest | testi7 | miker teest |" time="0.007">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;id_gender1&quot;}&#10;  (Session info: chrome=81.0.4044.129)&#10;  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 30.06 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Tonyshugar&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65132}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\TONYSH~1\AppData\Local\Temp\scoped_dir26796_188172349}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 126ac298ee18ac1d0767bcc96249383d&#10;*** Element info: {Using=id, value=id_gender1}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"id_gender1"}
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Tonyshugar', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65132}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\TONYSH~1\AppData\Local\Temp\scoped_dir26796_188172349}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 126ac298ee18ac1d0767bcc96249383d
+*** Element info: {Using=id, value=id_gender1}
+</error>
+  </testcase>
+  <testcase name="Then I enter &quot;miker&quot;" classname="| miker | teest | testi7 | miker teest |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I enter a  &quot;teest&quot; Lastname" classname="| miker | teest | testi7 | miker teest |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter a  &quot;testi7&quot;" classname="| miker | teest | testi7 | miker teest |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter date of birth" classname="| miker | teest | testi7 | miker teest |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter address" classname="| miker | teest | testi7 | miker teest |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter a city" classname="| miker | teest | testi7 | miker teest |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter a state" classname="| miker | teest | testi7 | miker teest |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter a Zip Code" classname="| miker | teest | testi7 | miker teest |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter a country" classname="| miker | teest | testi7 | miker teest |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter a mobile number" classname="| miker | teest | testi7 | miker teest |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click the register button" classname="| miker | teest | testi7 | miker teest |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I verify that&quot;miker teest&quot; is logged in" classname="| miker | teest | testi7 | miker teest |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I  sign out successfully" classname="| miker | teest | testi7 | miker teest |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I  am on the homepage" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="And I Click on the log in link" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="When I enter my new email address" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="And I click on the crate account button" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="And I click on the male radio button" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="Then I enter &quot;mike&quot;" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="Then I enter a  &quot;testeer&quot; Lastname" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="And I enter a  &quot;test1&quot;" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="And I enter date of birth" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="And I enter address" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="And I enter a city" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="And I enter a state" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="And I enter a Zip Code" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="And I enter a country" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="And I enter a mobile number" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="When I click the register button" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="Then I verify that&quot;mike testeer&quot; is logged in" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="And I  sign out successfully" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="| mike | testeer | test1 | mike testeer |" classname="| mike | testeer | test1 | mike testeer |" time="0"/>
+  <testcase name="Given I  am on the homepage" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="And I Click on the log in link" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="When I enter my new email address" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="And I click on the crate account button" classname="| mikky | testing | test2 | mikky testing |" time="0.001"/>
+  <testcase name="And I click on the male radio button" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="Then I enter &quot;mikky&quot;" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="Then I enter a  &quot;testing&quot; Lastname" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="And I enter a  &quot;test2&quot;" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="And I enter date of birth" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="And I enter address" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="And I enter a city" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="And I enter a state" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="And I enter a Zip Code" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="And I enter a country" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="And I enter a mobile number" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="When I click the register button" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="Then I verify that&quot;mikky testing&quot; is logged in" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="And I  sign out successfully" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="| mikky | testing | test2 | mikky testing |" classname="| mikky | testing | test2 | mikky testing |" time="0"/>
+  <testcase name="Given I  am on the homepage" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="And I Click on the log in link" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="When I enter my new email address" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="And I click on the crate account button" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="And I click on the male radio button" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="Then I enter &quot;mite&quot;" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="Then I enter a  &quot;test&quot; Lastname" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="And I enter a  &quot;test4&quot;" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="And I enter date of birth" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="And I enter address" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="And I enter a city" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="And I enter a state" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="And I enter a Zip Code" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="And I enter a country" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="And I enter a mobile number" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="When I click the register button" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="Then I verify that&quot;mite test&quot; is logged in" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="And I  sign out successfully" classname="| mite | test | test4 | mite test |" time="0"/>
+  <testcase name="| mite | test | test4 | mite test |" classname="| mite | test | test4 | mite test |" time="0.001"/>
+</testsuite>

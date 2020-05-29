@@ -1,0 +1,8 @@
+eComms\StepDefinations.class
+Pages\MyAccountPage.class
+Pages\ContactUsPage.class
+Pages\SignInpage.class
+Pages\RegisterPage.class
+Pages\HomePage.class
+eComms\RunnerTest.class
+Pages\CommonPage.class
